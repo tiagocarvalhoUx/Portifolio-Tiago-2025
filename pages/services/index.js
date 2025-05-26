@@ -32,11 +32,15 @@ const Services = () => {
             initial='hidden' 
             animate='show'
             exit='hidden'  
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+            className='mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold'
             >
             
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Dolores voluptatem, facilis commodi nulla corrupti officiis magni laborum voluptatibus deserunt natus amet ipsa id laboriosam! 
+              Resumo dos Meus Serviços como Programador Front-end
+
+Sou um desenvolvedor front-end especializado em criar interfaces modernas, responsivas e de alta performance. Utilizo tecnologias como HTML5, CSS3, Tailwindcss, JavaScript, React(vite) e frameworks como React, Next.js ou Angular para desenvolver soluções web intuitivas e alinhadas com as melhores práticas de UX/UI.
+
+
+
               </motion.p>
           </div>
 

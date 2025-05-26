@@ -24,27 +24,27 @@ export const serviceData = [
   {
     icon: <RxCrop />,
     title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Desenvolver experiências web inovadoras que conectem usuários e marcas de maneira significativa.",
   },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Habilidade em consumir APIs RESTful, implementar designs pixel-perfect e garantir performance otimizada. ",
   },
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Apaixonado por UX/UI Design, colaborando com equipes multidisciplinares para entregar produtos intuitivos e visualmente atraentes.",
   },
   {
     icon: <RxReader />,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Crio textos claros e convincentes para landing pages, blogs e interfaces, alinhados à identidade da marca.",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Aplico técnicas de SEO on-page para garantir que os sites tenham alta performance e visibilidade nos mecanismos de busca.",
   },
 ];
 
