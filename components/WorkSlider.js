@@ -127,7 +127,7 @@ const WorkSlider = () => {
                               className="translate-y-[500%]
                               group-hover:translate-y-0 transition-all duration-300 delay-150"
                             >
-                              PROJETO
+                              PROJECT
                             </div>
                             {/* icon */}
                             <div
