@@ -31,11 +31,15 @@ const Work = () => {
             initial='hidden' 
             animate='show'
             exit='hidden'  
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0'
+            className='mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold text-ms '
             >
             
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Dolores voluptatem, facilis commodi nulla corrupti officiis magni laborum voluptatibus deserunt natus amet ipsa id laboriosam! 
+              Especializado em criar interfaces modernas, responsivas e de alta performance utilizando tecnologias avançadas como:
+
+React.js (Vite): Desenvolvimento ágil e otimizado de aplicações web com React, aproveitando a velocidade do Vite para um build eficiente.
+
+
+UI/UX Design: Foco em experiências intuitivas, seguindo princípios de design responsivo e acessibilidade.
               </motion.p>
           </div>
 
