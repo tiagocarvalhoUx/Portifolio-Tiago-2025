@@ -45,7 +45,7 @@ export const aboutData = [
         stage: "2022 - 2023",
       },
       {
-        title: "Adobe Design  - Arte Finalista",
+        title: "Adobe Design Achievement Awards - Arte Finalista",
         stage: "2023 - 2024",
       },
     ],
