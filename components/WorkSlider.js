@@ -83,7 +83,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      className="h-[280px] sm:h-[480px] mt-[160px]"
     >
       {workSliderfs.slides.map((slide, slideIndex) => {
         return (

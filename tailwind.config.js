@@ -16,9 +16,9 @@ module.exports = {
     },
     screens: {
       sm: '640px',
-      md: '650px',
+      md: '750px',
       lg: '750px',
-      xl: '1100px',
+      xl: '750px',
     },
     extend: {
       colors: {
