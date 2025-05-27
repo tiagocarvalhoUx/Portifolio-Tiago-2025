@@ -14,7 +14,7 @@ export const workSliderfs = {
           link: "https://coffe-web-henna.vercel.app/", // Adicione o link correto
         },
         {
-          title: "Pet-Sho",
+          title: "Pet-Shop",
           path: "/Pet-shop.png",
           link: "https://petshop-chi.vercel.app/",
         },
