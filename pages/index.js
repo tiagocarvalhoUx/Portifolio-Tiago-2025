@@ -17,7 +17,7 @@ import { fadeIn } from "../variants";
     <div className="h-full bg-primary/60">
       {/*text*/}
       <div
-        className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 text-[12px] font-bold "
+        className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 text-[18px] font-bold "
       >
         <div
           className="container flex flex-col justify-center h-full mx-auto text-center sm:pt-40 xl:text-left"
