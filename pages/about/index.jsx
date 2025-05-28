@@ -45,7 +45,7 @@ export const aboutData = [
         stage: "2022 - 2023",
       },
       {
-        title: "Adobe Design Achievement Awards - Arte Finalista",
+        title: "Adobe Design Awards - Arte Finalista",
         stage: "2023 - 2024",
       },
     ],
@@ -165,7 +165,7 @@ const About = () => {
         <Avatar />
       </Motion>
 
-      <div className="container mx-auto px-4 flex flex-col items-center h-full xl:flex-row xl:gap-x-6">
+      <div className="container mx-12 px-4 flex flex-col items-center h-full xl:flex-row xl:gap-x-6">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center xl:max-w-xl">
           <Motion
@@ -175,7 +175,7 @@ const About = () => {
             exit="hidden"
             className="mb-6"
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl  font-bold mb-4">
               Trajetória <span className="text-blue-400">História</span>{" "}
               Desenvolvedor Designer.
             </h2>
@@ -244,9 +244,9 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] mt-8 xl:mt-0"
+          className="flex flex-col  w-full xl:max-w-[20%] mt-5 xl:mt-0 "
         >
-          <div className="flex mx-auto mb-4 gap-x-4 xl:gap-x-8 xl:mx-0">
+          <div className="flex  mx-auto mb-6 gap-x-4 xl:gap-x-8 xl:mx-0">
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
@@ -264,13 +264,13 @@ const About = () => {
             })}
           </div>
 
-          <div className="bg-white/5 rounded-lg p-6 min-h-[300px]">
+          <div className="bg-white/5 rounded-lg p-6 min-h-[300px] min-w-[520px] mx-auto">
             <div className="flex flex-col items-center xl:items-start gap-y-4">
               {aboutData[index].info.map((item, itemIndex) => {
                 return (
                   <div
                     key={itemIndex}
-                    className="flex flex-col md:flex-row items-center md:items-start w-full gap-x-4 text-white/80 p-3 bg-white/5 rounded-lg"
+                    className="flex flex-col min-w-[400px] md:flex-row items-center md:items-start w-full gap-x-4 text-white/80 p-3 bg-white/5 rounded-lg"
                   >
                     {/*title*/}
                     <div className="font-semibold text-white mb-2 md:mb-0 min-w-fit">

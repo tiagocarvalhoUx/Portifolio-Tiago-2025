@@ -20,9 +20,9 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-0"
+              className="h2 xl:mt-[50px]"
             >
-              My works <span className="text-accent">.</span>
+             Meus Trabalhos<span className="text-accent " >.</span>
             </motion.h2>
 
             <motion.p
@@ -30,7 +30,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold text-ms"
+              className="mb-4 min-w-[400px]  mt-2 lg:mx-0 font-semibold text-ms"
             >
               Especializado em criar interfaces modernas, responsivas e de alta
               performance utilizando tecnologias avançadas como: React.js

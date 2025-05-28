@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div className=' h-full bg-primary/30 py-36 flex items-center'>
       <Circles />
-      <div className='container mx-auto'>
+      <div className='container mx-[50px]'>
         <div className='flex flex-col xl:flex-row gap-x-8 '>
           {/* text */}
           <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4
@@ -22,9 +22,9 @@ const Services = () => {
             initial='hidden' 
             animate='show'
             exit='hidden' 
-            className='h2 xl:mt-8'
+            className='h2 xl:mt-8 '
             >
-              My Services <span className='text-accent'>.</span>
+              Meus Serviços <span className='text-accent'>.</span>
             </motion.h2>
             
             <motion.p 
@@ -32,7 +32,7 @@ const Services = () => {
             initial='hidden' 
             animate='show'
             exit='hidden'  
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0 font-semibold'
+            className='mb-4 min-w-[400px]  lg:mx-0 font-semibold'
             >
             
               Resumo dos Meus Serviços como Programador Front-end
@@ -50,7 +50,7 @@ Sou um desenvolvedor front-end especializado em criar interfaces modernas, respo
           initial='hidden' 
           animate='show'
           exit='hidden'  
-          className='w-full xl:max-w-[65%]'>
+          className='w-full xl:max-w-[100%] '>
           <ServiceSlider />
 
           </motion.div>

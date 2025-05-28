@@ -34,7 +34,7 @@ export const serviceData = [
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Apaixonado por UX/UI Design, colaborando com equipes multidisciplinares para entregar produtos intuitivos e visualmente atraentes.",
+    description: "Apaixonado por UX/UI Design, colaborando com equipes disciplinares para entregar produtos intuitivos e visualmente atraentes.",
   },
   {
     icon: <RxReader />,
