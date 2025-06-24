@@ -152,11 +152,11 @@ const About = () => {
 
   return (
     <div className="min-h-screen py-16 md:py-32 text-center bg-slate-900 text-white xl:text-left relative overflow-hidden">
-      <Circles />
+     
 
       {/* avatar img*/}
       <Motion
-        variants={fadeIn("right", 0.2)}
+        variants={fadeIn("right", 0.4)}
         initial="hidden"
         animate="show"
         exit="hidden"
@@ -175,30 +175,30 @@ const About = () => {
             exit="hidden"
             className="mb-6"
           >
-            <h2 className="text-3xl md:text-4xl  font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl mt-8  font-bold mb-4 mr-12">
               Trajetória <span className="text-blue-400">História</span>{" "}
               Desenvolvedor Designer.
             </h2>
           </Motion>
 
           <Motion
-            variants={fadeIn("right", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 text-gray-300"
-          >
-            <p>
-              Há 3 anos, comecei a trabalhar como freelancer como desenvolvedor.
-              Desde então, eu fiz trabalho remoto para agências, dei consultoria
-              para startups e colaborei em produtos digitais para uso comercial
-              e de consumidor.
-            </p>
-          </Motion>
+  variants={fadeIn("right", 0.6)}
+  initial="hidden"
+  animate="show"
+  exit="hidden"
+  className="max-w-[500px] xl:mx-0 mb-6 xl:mb-12 text-gray-300"
+>
+  <p className="text-justify mr-12">
+    Há 3 anos, comecei a trabalhar como freelancer como desenvolvedor.
+    Desde então, eu fiz trabalho remoto para agências, dei consultoria
+    para startups e colaborei em produtos digitais para uso comercial
+    e de consumidor.
+  </p>
+</Motion>
 
           {/* counters */}
           <Motion
-            variants={fadeIn("right", 0.6)}
+            variants={fadeIn("right")}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -244,9 +244,9 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col  w-full xl:max-w-[20%] mt-5 xl:mt-0 "
+          className="flex flex-col  w-full xl:max-w-[20%] mt-[5px] xl:mt-0 ml-[-110px]"
         >
-          <div className="flex  mx-auto mb-6 gap-x-4 xl:gap-x-8 xl:mx-0">
+          <div className="flex mx-auto mb-6 gap-x-4 xl:gap-x-8 xl:mx-0 mt-[60px]">
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
@@ -264,13 +264,13 @@ const About = () => {
             })}
           </div>
 
-          <div className="bg-white/5 rounded-lg p-6 min-h-[300px] min-w-[520px] mx-auto">
-            <div className="flex flex-col items-center xl:items-start gap-y-4">
+          <div className="bg-white/5 rounded-lg p-6 min-h-[300px] max-w-[460px] mx-auto  ">
+            <div className="flex flex-col items-center  gap-y-4   ">
               {aboutData[index].info.map((item, itemIndex) => {
                 return (
                   <div
                     key={itemIndex}
-                    className="flex flex-col min-w-[400px] md:flex-row items-center md:items-start w-full gap-x-4 text-white/80 p-3 bg-white/5 rounded-lg"
+                    className="flex flex-col min-w-[400px] mr-[50px] md:flex-row items-center md:items-start w-full  gap-w-4 text-white/80 p-3 bg-white/5 rounded-lg"
                   >
                     {/*title*/}
                     <div className="font-semibold text-white mb-2 md:mb-0 min-w-fit">

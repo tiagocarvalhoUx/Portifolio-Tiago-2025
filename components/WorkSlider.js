@@ -45,7 +45,7 @@ export const workSliderfs = {
         {
           title: "Popcorn",
           path: "/popcorne.png",
-          link: "https://original-popcorn.vercel.app/", // Adicione o link correto
+          link: "https://pop-corn-festas.vercel.app/", // Adicione o link correto
         },
       ],
     },
@@ -83,7 +83,7 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px]  sm:h-[500px] mt-[180px]"
+      className="h-[280px]  sm:h-[500px] mt-[100px]"
     >
       {workSliderfs.slides.map((slide, slideIndex) => {
         return (
