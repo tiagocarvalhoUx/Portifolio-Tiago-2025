@@ -41,8 +41,8 @@ const Header = () => {
           {/* Download Button - aparece apenas na página inicial */}
           {isHomePage && (
             <a
-              href="/cv-Tiago-2025.pdf"
-              download="cv-Tiago-2025.pdf"
+              href="/cv-Tiago-ats-Port-_2025.pdf"
+              download="cv-Tiago-ats-Port-_2025.pdf"
               target="_blank"
               className=" rounded-full border   border-white/50 bg-accent px-6 py-1 sm:px-8 flex  items-center justify-center transition-all duration-300 hover:bg-transparent group text-sm sm:text-base"
             >
