@@ -244,9 +244,9 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col  w-full xl:max-w-[20%] mt-[5px] xl:mt-0 ml-[-110px]"
+          className=" container mx-auto flex flex-col  w-full xl:max-w-[20%] mt-[5px] xl:mt-0 ml-[-110px]"
         >
-          <div className="flex mx-auto mb-6 gap-x-4 xl:gap-x-8 xl:mx-0 mt-[60px]">
+          <div className="  container mx-auto flex  mb-6 gap-x-8 xl:gap-x-8 xl:mx-0 mt-[-10px] ml-[80px]">
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
@@ -264,7 +264,7 @@ const About = () => {
             })}
           </div>
 
-          <div className="bg-white/5 rounded-lg p-6 min-h-[300px] max-w-[460px] mx-auto  ">
+          <div className="bg-white/5 rounded-lg p-6 min-h-[300px] max-w-[460px] mx-auto ml-[30px]  ">
             <div className="flex flex-col items-center  gap-y-4   ">
               {aboutData[index].info.map((item, itemIndex) => {
                 return (

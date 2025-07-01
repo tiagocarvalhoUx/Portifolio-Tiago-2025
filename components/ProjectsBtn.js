@@ -13,7 +13,7 @@ const ProjectsBtn = () => {
       <Link
          href={"/work"}
         className="relative w-[185px] h-[185px] flex justify-center items-center
-      bg-circleStar bg-cover bg-center bg-no-repeat group mt-[-600px]"
+      bg-circleStar bg-cover bg-center bg-no-repeat group mt-[20px]"
       >
         <Image
           src={"/rounded-text.png"}

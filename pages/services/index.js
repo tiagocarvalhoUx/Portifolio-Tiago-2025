@@ -22,7 +22,7 @@ const Services = () => {
             initial='hidden' 
             animate='show'
             exit='hidden' 
-            className='h2 xl:mt-8 '
+            className='h2 xl:mt-8 text-nowrap '
             >
               Meus Serviços <span className='text-accent'>.</span>
             </motion.h2>
@@ -32,7 +32,7 @@ const Services = () => {
             initial='hidden' 
             animate='show'
             exit='hidden'  
-            className='mb-4 min-w-[400px]  lg:mx-0 font-semibold'
+            className='container mx-auto  ml-[-30px] mb-4 min-w-[400px] text-justify  lg:mx-0 font-semibold'
             >
             
               Resumo dos Meus Serviços como Programador Front-end
@@ -50,7 +50,7 @@ Sou um desenvolvedor front-end especializado em criar interfaces modernas, respo
           initial='hidden' 
           animate='show'
           exit='hidden'  
-          className='w-full xl:max-w-[100%] '>
+          className='w-full xl:max-w-[100%] ml-[-40px] '>
           <ServiceSlider />
 
           </motion.div>

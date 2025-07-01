@@ -28,7 +28,7 @@ import { fadeIn } from "../variants";
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 text-[35px] mt-[85px]"
+            className="h1 text-[35px] mt-[80px]  justify-start"
           >
             Transformando Ideias
             <br /> Em {""}
@@ -40,7 +40,7 @@ import { fadeIn } from "../variants";
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm mx-auto mb-10 xl:max-w-xl xl:mx-0 xl:mb-16"
+            className="max-w-sm mx-auto mb-10 xl:max-w-xl xl:mx-0 xl:mb-16 justify-start"
           >
             Sou Web Designer especializado em criação e desenvolvimento de sites
             responsivos, com sólida experiência em design de interfaces
