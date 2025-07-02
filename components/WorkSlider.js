@@ -34,7 +34,7 @@ export const workSliderfs = {
         },
         {
           title: "Hamburgueria",
-          path: "/hambugueria.png",
+          path: "/burguer layout.png",
           link: "https://cardapio-hambuguer-three.vercel.app/", // Adicione o link correto
         },
         {
@@ -44,7 +44,7 @@ export const workSliderfs = {
         },
         {
           title: "Popcorn",
-          path: "/popcorne.png",
+          path: "/PopCorn layout.png",
           link: "https://pop-corn-festas.vercel.app/", // Adicione o link correto
         },
       ],
@@ -83,12 +83,12 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px]  sm:h-[500px] mt-[100px]"
+      className="h-[280px]  sm:h-[500px] mt-[70px] "
     >
       {workSliderfs.slides.map((slide, slideIndex) => {
         return (
           <SwiperSlide key={slideIndex}>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer  ">
               {slide.images.map((image, imageIndex) => {
                 return (
                   <div
